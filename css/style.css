@@ -90,6 +90,16 @@ section{
     padding: 120px 0;
 }
 
+.home-text p{
+    font-size: 18px;
+}
+.home-text h1{
+
+}
+.home-text h2{
+
+}
+
 .home-text,
 .home-img{
     width: 50%;
