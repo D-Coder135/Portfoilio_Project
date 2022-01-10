@@ -87,3 +87,8 @@ section{
 .home-img{
     background-color: red;
 }
+.home-text,
+.home-img{
+    width: 50%;
+    padding: 15px;
+}
