@@ -123,6 +123,7 @@ section{
 
 .btn::before{
     content: '';
+    position: absolute;
 }
 
 /* Home Section */
