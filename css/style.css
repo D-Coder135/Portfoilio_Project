@@ -87,6 +87,7 @@ section{
 
 .home-section{
     display: flex;
+    padding: 120px 0;
 }
 
 .home-text{
