@@ -50,6 +50,10 @@ body::before{
     opacity: 0.12;
 }
 
+section{
+    background-color: var(--white-alpha-25);
+}
+
 .main{
     /* background-color: red;    */
     max-width: 1200px;
