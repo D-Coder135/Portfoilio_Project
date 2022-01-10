@@ -10,6 +10,7 @@
     --white: #ffffff;
     --white-alpha-40: rgba(255,255,255,0.40);
     --white-alpha-25: rgba(255,255,255,0.25);
+    --backdrop-filter-blur: blur(5px);
 
 }
 
