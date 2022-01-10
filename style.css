@@ -5,3 +5,8 @@
     margin: 0;
     outline: none;
 }
+
+::before,
+::after{
+    box-sizing: border-box;
+}
