@@ -121,6 +121,7 @@ section{
     user-select: none;
     position: relative;
     overflow: hidden;
+    vertical-align: middle;
 }
 
 .btn::before{
