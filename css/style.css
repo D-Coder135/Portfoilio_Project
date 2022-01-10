@@ -133,6 +133,7 @@ section{
     width: 100%;
     background-color: var(--main-color);
     z-index: -1;
+    transform: width 0.3s ease;
 }
 
 /* Home Section */
