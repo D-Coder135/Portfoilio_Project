@@ -75,6 +75,7 @@ section{
 
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* Home Section */
