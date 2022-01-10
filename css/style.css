@@ -74,3 +74,7 @@ section{
 }
 
 /* Home Section */
+
+.home-text{
+    background-color: blue;
+}
