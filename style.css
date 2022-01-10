@@ -31,4 +31,5 @@
 
 body{
     min-height: 100vh;
+    background-image: linear-gradient(to bottom right, var(--pink-light), var(--cyan-light));
 }
