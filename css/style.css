@@ -53,4 +53,5 @@ body::before{
 .main{
     background-color: red;   
     max-width: 1200px;
+    margin: auto;
 }
