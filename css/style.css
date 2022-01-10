@@ -116,6 +116,7 @@ section{
     text-transform: capitalize;
     font-family: inherit;
     font-size: 16px;
+    cursor: pointer;
 }
 
 /* Home Section */
