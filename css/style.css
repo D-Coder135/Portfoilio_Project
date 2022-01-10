@@ -110,6 +110,7 @@ section{
     padding: 10px 28px;
     display: inline-block;
     border-radius: 30px;
+    color: var(--main-color);
 }
 
 /* Home Section */
