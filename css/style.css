@@ -73,6 +73,10 @@ section{
     background-color: red;
 }
 
+.row{
+    display: flex;
+}
+
 /* Home Section */
 
 .home-text{
