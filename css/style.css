@@ -166,6 +166,10 @@ section{
     margin: 0 0 30px;
 }
 
+.home-text .btn{
+    margin: 0 15px 15px 0;
+}
+
 .home-text,
 .home-img{
     width: 50%;
