@@ -100,6 +100,10 @@ section{
 
 /* Buttons */
 
+.btn{
+    line-height: 1.5;
+}
+
 /* Home Section */
 
 .home-section{
