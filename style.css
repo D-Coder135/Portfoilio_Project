@@ -36,4 +36,5 @@ body{
 body::before{
     content: '';
     position: fixed;
+    left: 0;
 }
