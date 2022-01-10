@@ -51,6 +51,10 @@ body::before{
     opacity: 0.12;
 }
 
+img{
+    max-width: 100%;
+}
+
 section{
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
