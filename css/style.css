@@ -72,6 +72,7 @@ section{
 .container{
     background-color: red;
     padding: 0 40px;
+    width: 100%;
 }
 
 .row{
