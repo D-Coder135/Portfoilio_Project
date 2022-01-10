@@ -105,6 +105,7 @@ section{
     background-color: var(--white-alpha-25);
     padding: 10px 28px;
     display: inline-block;
+    border-radius: 30px;
 }
 
 /* Home Section */
