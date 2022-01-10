@@ -49,3 +49,7 @@ body::before{
     z-index: -1;
     opacity: 0.12;
 }
+
+.main{
+    background-color: red;
+}
