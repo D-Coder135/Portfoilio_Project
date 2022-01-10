@@ -136,6 +136,10 @@ section{
     transform: width 0.3s ease;
 }
 
+.btn:hover::before{
+    width: 100%;
+}
+
 /* Home Section */
 
 .home-section{
