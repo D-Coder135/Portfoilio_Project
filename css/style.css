@@ -80,6 +80,7 @@ section{
     border: 1px solid var(--white-alpha-40);
     min-height: 90vh;
     border-radius: 30px;
+    backdrop-filter: var(--backdrop-filter-blur);
 }
 
 .main{
