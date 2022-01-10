@@ -90,13 +90,13 @@ section{
     padding: 120px 0;
 }
 
-/* .home-text{
+.home-text{
     background-color: blue;
 }
 
 .home-img{
     background-color: green;
-} */
+}
 .home-text,
 .home-img{
     width: 50%;
@@ -113,5 +113,5 @@ section{
 
 .home-img .img-box img{
     width: 100%;
-    border-radius: 80%;
+    border-radius: 50%;
 }
