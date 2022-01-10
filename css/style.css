@@ -112,6 +112,7 @@ section{
     border-radius: 30px;
     color: var(--main-color);
     font-weight: 500;
+    text-transform: capitalize;
 }
 
 /* Home Section */
