@@ -103,3 +103,7 @@ section{
     border-radius: 50%;
     border-radius: 8px solid var(--white-alpha-25);
 }
+
+.home-img .img-box img{
+    width: 100%;
+}
