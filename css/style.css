@@ -120,6 +120,7 @@ section{
     cursor: pointer;
     user-select: none;
     position: relative;
+    overflow: hidden;
 }
 
 .btn::before{
