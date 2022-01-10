@@ -99,6 +99,7 @@ section{
 }
 .home-text h2{
     font-size: 20px;
+    text-transform: capitalize;
 }
 
 .home-text,
