@@ -141,6 +141,10 @@ section{
     width: 100%;
 }
 
+.btn:hover{
+    color: var(--white);
+}
+
 /* Home Section */
 
 .home-section{
