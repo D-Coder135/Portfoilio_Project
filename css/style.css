@@ -96,3 +96,7 @@ section{
     width: 50%;
     padding: 15px;
 }
+
+.home-img .img-box{
+    max-width: 360px;
+}
