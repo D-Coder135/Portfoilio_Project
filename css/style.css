@@ -111,6 +111,7 @@ section{
     display: inline-block;
     border-radius: 30px;
     color: var(--main-color);
+    font-weight: 500;
 }
 
 /* Home Section */
