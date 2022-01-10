@@ -95,6 +95,7 @@ section{
 }
 .home-text h1{
     font-size: 50px;
+    text-transform: capitalize;
 }
 .home-text h2{
 
