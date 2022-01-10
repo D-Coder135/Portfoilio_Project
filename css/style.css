@@ -100,4 +100,5 @@ section{
 .home-img .img-box{
     max-width: 360px;
     background-color: var(--white-alpha-25);
+    border-radius: 50%;
 }
