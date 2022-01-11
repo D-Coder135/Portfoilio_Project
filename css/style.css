@@ -278,4 +278,5 @@ section{
     background-color: transparent;
     border: none;
     text-transform: capitalize;
+    display: inline-block;
 }
