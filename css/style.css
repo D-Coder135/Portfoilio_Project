@@ -339,6 +339,7 @@ button{
     width: 1px;
     top: 0;
     left: 5px;
+    background-color: var(--main-color);
 }
 
 .about-text .tab-content {
