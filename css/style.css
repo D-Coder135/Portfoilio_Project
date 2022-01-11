@@ -285,4 +285,5 @@ section{
     display: inline-block;
     color: var(--blue-dark);
     font-size: 20px;
+    cursor: pointer;
 }
