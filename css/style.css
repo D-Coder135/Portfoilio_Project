@@ -325,4 +325,5 @@ button{
 .about-tabs .tab-item.active {
     color: var(--main-color);
     opacity: 1;
+    cursor: auto;
 }
