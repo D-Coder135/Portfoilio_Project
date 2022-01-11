@@ -348,7 +348,7 @@ button{
 
 .about-text .timeline-item {
     margin-bottom: 30px;
-    
+    position: relative;
 }
 
 .about-text .timeline-item::before {
