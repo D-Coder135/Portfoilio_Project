@@ -342,4 +342,5 @@ button{
 
 .about-text .timeline-item .date{
     display: block;
+    color: var(--main-color);
 }
