@@ -242,4 +242,5 @@ section{
 
 .about-img .img-box{
     background-color: var(--white-alpha-25);
+    max-width: 380px;
 }
