@@ -103,6 +103,10 @@ section{
     align-items: center;
 }
 
+.hidden{
+    display: none !important;
+}
+
 /* Custom ScrollBar */
 
 ::-webkit-scrollbar{
