@@ -231,7 +231,7 @@ section{
 /* About Section */
 .about-img{
     /* background-color: red; */
-    width: 6 0%;
+    width: 40%;
     padding: 0 15px;
     margin: auto;
     border-radius: 1 0px;
@@ -239,7 +239,7 @@ section{
 
 .about-text{
     /* background-color: blue; */
-    width: 50%;
+    width: 60%;
     padding: 0 15px; 
 }
 
