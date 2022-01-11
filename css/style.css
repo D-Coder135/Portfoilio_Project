@@ -109,6 +109,9 @@ section{
 
 /* Section Title */
 
+.section-title {
+    background-color: red;
+}
 
 
 /* Custom ScrollBar */
