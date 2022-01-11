@@ -316,3 +316,7 @@ button{
 .about-tabs .tab-item:hover::before{
     width: 100%;
 }
+
+.about-tabs .tab-item.active::before {
+    width: 100%;
+}
