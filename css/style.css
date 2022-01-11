@@ -295,6 +295,7 @@ button{
     margin: 0 30px 0 0;
     position: relative;
     opacity: 0.5;
+    transition: all 0.3s ease;
 }
 
 .about-tabs .tab-item:last-child{
