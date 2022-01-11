@@ -346,3 +346,7 @@ button{
     font-weight: 400;
     margin: 0 0 10px;
 }
+
+.about-text .timeline-item h4{
+    font-size: 18px;
+}
