@@ -327,3 +327,7 @@ button{
     opacity: 1;
     cursor: auto;
 }
+
+.about-text .timeline-item {
+    margin-bottom: 30px;
+}
