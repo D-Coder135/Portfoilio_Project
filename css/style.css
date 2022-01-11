@@ -275,4 +275,5 @@ section{
 
 .about-tabs .tab-item{
     padding: 2px 0;
+    background-color: transparent;
 }
