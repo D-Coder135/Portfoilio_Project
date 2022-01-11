@@ -230,6 +230,7 @@ section{
 .about-img{
     background-color: red;
     width: 50%;
+    padding: 0 15px;
 }
 
 .about-text{
