@@ -336,6 +336,7 @@ button{
     content: '';
     position: absolute;
     height: 100%;
+    width: 1px;
 }
 
 .about-text .tab-content {
