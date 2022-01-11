@@ -360,6 +360,7 @@ button{
     left: 0;
     background-color: var(--main-color);
     top: 16px;
+    border-radius: 50%;
 }
 
 .about-text .timeline-item:last-child {
