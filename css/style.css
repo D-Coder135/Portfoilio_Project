@@ -235,4 +235,6 @@ section{
 
 .about-text{
     background-color: blue;
+    width: 50%;
+    padding: 0 15px;
 }
