@@ -352,3 +352,7 @@ button{
     text-transform: capitalize;
     margin: 0 0 10px;
 }
+
+.about-text .timeline-item h4 span{
+    font-weight: 400;
+}
