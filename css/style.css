@@ -334,6 +334,7 @@ button{
 
 .about-text .timeline::before {
     content: '';
+    position: absolute;
 }
 
 .about-text .tab-content {
