@@ -349,4 +349,5 @@ button{
 
 .about-text .timeline-item h4{
     font-size: 18px;
+    text-transform: capitalize;
 }
