@@ -261,6 +261,7 @@ section{
 
 .about-text .skills{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .about-text .skill-item{
