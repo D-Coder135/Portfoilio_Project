@@ -319,4 +319,5 @@ button{
 
 .about-tabs .tab-item.active::before {
     width: 100%;
+    background-color: var(--main-color);
 }
