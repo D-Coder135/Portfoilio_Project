@@ -344,4 +344,5 @@ button{
     display: block;
     color: var(--main-color);
     font-weight: 400;
+    margin: 0 0 10px;
 }
