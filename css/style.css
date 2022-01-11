@@ -227,3 +227,6 @@ section{
 }
 
 /* About Section */
+.about-img{
+    background-color: red;
+}
