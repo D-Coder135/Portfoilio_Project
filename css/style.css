@@ -302,4 +302,5 @@ button{
 
 .about-tabs .tab-item::before{
     content: '';
+    position: absolute;
 }
