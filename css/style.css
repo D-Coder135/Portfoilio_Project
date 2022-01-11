@@ -310,3 +310,7 @@ button{
     background-color: var(--blue-dark);
     transition: width 0.3s ease;
 }
+
+.about-tabs .tab-item:hover::before{
+    width: 100%;
+}
