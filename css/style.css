@@ -252,3 +252,7 @@ section{
 .about-img .img-box img{
     width: 100%;
 }
+
+.about-text h3{
+    text-transform: capitalize;
+}
