@@ -273,6 +273,10 @@ section{
     border-radius: 20px;
 }
 
+.about-tabs {
+    margin-top: 20px;
+}
+
 .about-tabs .tab-item{
     padding: 2px 0;
     background-color: transparent;
