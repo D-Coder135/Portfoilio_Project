@@ -114,7 +114,7 @@ section{
 }
 
 .section-title {
-    background-color: red;
+    /* background-color: red; */
     padding: 0 15px;
     width: 100%;
 }
