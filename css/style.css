@@ -277,4 +277,5 @@ section{
     padding: 2px 0;
     background-color: transparent;
     border: none;
+    text-transform: capitalize;
 }
