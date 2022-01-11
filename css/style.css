@@ -105,6 +105,10 @@ section{
 
 /* Custom ScrollBar */
 
+::-webkit-scrollbar{
+    width: 5px;
+}
+
 
 /* Buttons */
 
