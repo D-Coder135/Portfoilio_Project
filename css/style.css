@@ -293,6 +293,7 @@ button{
     cursor: pointer;
     font-weight: 500;
     margin: 0 30px 0 0;
+    position: relative;
 }
 
 .about-tabs .tab-item:last-child{
