@@ -230,8 +230,9 @@ section{
 /* About Section */
 .about-img{
     background-color: red;
-    width: 60%;
+    width: 6 0%;
     padding: 0 15px;
+    margin: auto;
 }
 
 .about-text{
