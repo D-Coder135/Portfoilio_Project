@@ -256,4 +256,5 @@ section{
 .about-text h3{
     text-transform: capitalize;
     font-size: 20px;
+    margin: 20px 0;
 }
