@@ -321,3 +321,7 @@ button{
     width: 100%;
     background-color: var(--main-color);
 }
+
+.about-tabs .tab-item.active {
+    color: var(--main-color);
+}
