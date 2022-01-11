@@ -258,3 +258,7 @@ section{
     font-size: 20px;
     margin: 20px 0;
 }
+
+.about-text .skill-item{
+    background-color: var(--white-alpha-25);
+}
