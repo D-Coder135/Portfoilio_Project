@@ -37,6 +37,7 @@
 body{
     min-height: 100vh;
     background-image: linear-gradient(to bottom right, var(--pink-light), var(--cyan-light));
+    background-attachment: fixed;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
@@ -233,7 +234,7 @@ section{
     width: 6 0%;
     padding: 0 15px;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 1 0px;
 }
 
 .about-text{
