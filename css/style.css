@@ -335,6 +335,7 @@ button{
 .about-text .timeline::before {
     content: '';
     position: absolute;
+    height: 100%;
 }
 
 .about-text .tab-content {
