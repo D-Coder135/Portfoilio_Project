@@ -332,6 +332,10 @@ button{
     position: relative;
 }
 
+.about-text .timeline::before {
+    content: '';
+}
+
 .about-text .tab-content {
     padding: 40px 0;
 }
