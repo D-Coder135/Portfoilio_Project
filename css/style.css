@@ -348,6 +348,17 @@ button{
 
 .about-text .timeline-item {
     margin-bottom: 30px;
+    
+}
+
+.about-text .timeline-item::before {
+    content: '';
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    left: 0;
+    background-color: var(--main-color);
+    top: 16px;
 }
 
 .about-text .timeline-item:last-child {
