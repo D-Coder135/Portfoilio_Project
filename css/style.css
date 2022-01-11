@@ -144,6 +144,10 @@ section{
 
 /* Buttons */
 
+button{
+    font-family: inherit;
+}
+
 .btn{
     line-height: 1.5;
     background-color: var(--white-alpha-25);
