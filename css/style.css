@@ -328,6 +328,10 @@ button{
     cursor: auto;
 }
 
+.about-text .timeline {
+    position: relative;
+}
+
 .about-text .tab-content {
     padding: 40px 0;
 }
