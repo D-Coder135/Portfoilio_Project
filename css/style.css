@@ -272,3 +272,7 @@ section{
     margin: 0 10px 10px 0;
     border-radius: 20px;
 }
+
+.about-tabs .tab-item{
+    padding: 2px 0;
+}
