@@ -263,4 +263,5 @@ section{
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
     padding: 5px 15px;
+    text-transform: capitalize;
 }
