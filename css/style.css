@@ -279,4 +279,5 @@ section{
     border: none;
     text-transform: capitalize;
     display: inline-block;
+    color: var(--blue-dark);
 }
