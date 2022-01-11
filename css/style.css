@@ -331,3 +331,7 @@ button{
 .about-text .timeline-item {
     margin-bottom: 30px;
 }
+
+.about-text .timeline-item:last-child {
+    margin-bottom: 0;
+}
