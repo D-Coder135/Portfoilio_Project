@@ -109,6 +109,10 @@ section{
     width: 5px;
 }
 
+::-webkit-scrollbar-track{
+    background-color: var(--white);
+}
+
 
 /* Buttons */
 
