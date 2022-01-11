@@ -299,3 +299,7 @@ button{
 .about-tabs .tab-item:last-child{
     margin: 0;
 }
+
+.about-tabs .tab-item::before{
+    content: '';
+}
