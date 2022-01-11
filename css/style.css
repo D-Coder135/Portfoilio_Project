@@ -229,7 +229,7 @@ section{
 
 /* About Section */
 .about-img{
-    background-color: red;
+    /* background-color: red; */
     width: 6 0%;
     padding: 0 15px;
     margin: auto;
@@ -237,7 +237,7 @@ section{
 }
 
 .about-text{
-    background-color: blue;
+    /* background-color: blue; */
     width: 50%;
     padding: 0 15px; 
 }
