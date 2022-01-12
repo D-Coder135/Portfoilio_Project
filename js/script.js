@@ -9,5 +9,6 @@ tabsContainer.addEventListener("click", (e) => {
         e.target.classList.add("active");
         const target = e.target.getAttribute("data-target");
         aboutSection.querySelector(".tab-content.active").classList.remove("active");
+        aboutSection.querySelector(target).classList.add("active");
     }
 });
