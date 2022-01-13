@@ -13,4 +13,8 @@ tabsContainer.addEventListener("click", (e) => {
     }
 });
 
-// Portfolio Item Details Popup
+// Portfolio Item Details Popup 
+
+document.addEventListener("click", (e) => {
+
+});
