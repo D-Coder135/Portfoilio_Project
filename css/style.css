@@ -454,4 +454,5 @@ button{
     padding: 30px;
     border: 1px solid var(--white-alpha-40);
     border-radius: 30px;
+    max-width: 900px;
 }
