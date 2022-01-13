@@ -100,6 +100,10 @@ section{
     transition: all 0.5s ease-in-out;
 }
 
+.main.fade-out {
+    opacity: 0;
+}
+
 .container{
     /* background-color: red; */
     padding: 0 40px;
