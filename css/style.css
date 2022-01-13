@@ -399,3 +399,7 @@ button{
     width: calc((100% / 3) - 30px);
     margin: 0 15px 30px;
 }
+
+.portfolio-item-details{
+    display: none;
+}
