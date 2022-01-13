@@ -452,4 +452,5 @@ button{
 .pp-content {
     background-color: var(--white-alpha-25);
     padding: 30px;
+    border: 1px solid var(--white-alpha-40);
 }
