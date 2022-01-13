@@ -409,6 +409,10 @@ button{
     background-color: var(--white-alpha-25);
 }
 
+.portfolio-item h3 {
+    font-size: 20px;
+}
+
 .portfolio-item-details{
     display: none;
 }
