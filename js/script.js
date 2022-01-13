@@ -12,3 +12,5 @@ tabsContainer.addEventListener("click", (e) => {
         aboutSection.querySelector(target).classList.add("active");
     }
 });
+
+// Portfolio Item Details Popup
