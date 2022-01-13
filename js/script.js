@@ -22,6 +22,8 @@ document.addEventListener("click", (e) => {
     }
 });
 
+// hide popup when clicking outside of it
+
 function togglePortfolioPopup() {
     document.querySelector(".portfolio-popup").classList.toggle("open");
     document.body.classList.toggle("hide-scrolling");
