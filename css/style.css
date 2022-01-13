@@ -458,3 +458,7 @@ button{
     width: 100%;
     backdrop-filter: var(--backdrop-filter-blur);
 }
+
+.pp-header {
+    position: relative;
+}
