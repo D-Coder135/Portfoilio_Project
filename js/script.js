@@ -30,4 +30,6 @@ function togglePortfolioPopup() {
 
 document.querySelector(".pp-close").addEventListener("click", togglePortfolioPopup);
 
-  
+function portfolioItemDetails(portfolioItem) {
+    
+}
