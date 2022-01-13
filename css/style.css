@@ -427,3 +427,7 @@ button{
 }
 
 /* Portfolio Popup */
+
+.portfolio-popup {
+    position: fixed;
+}
