@@ -480,6 +480,10 @@ button{
     transform: scale(0.9);
 }
 
+.portfolio-popup.open .pp-content{
+    opacity: 1;
+}
+
 .pp-header {
     position: relative;
 }
