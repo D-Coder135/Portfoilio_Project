@@ -498,3 +498,7 @@ button{
     font-weight: 500;
     text-transform: capitalize;
 }
+
+.pp-body .general-info li span{
+    font-weight: 300;
+}
