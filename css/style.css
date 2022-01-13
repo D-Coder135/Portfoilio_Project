@@ -437,6 +437,7 @@ button{
     /* background-color: red; */
     z-index: 200;
     /* opacity: 0.5; */
+    overflow-y: auto;
 }
 
 .pp-inner {
