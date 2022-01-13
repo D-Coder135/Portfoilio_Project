@@ -402,6 +402,7 @@ button{
 
 .portfolio-item-thumbnail img{
     width: 100%;
+    border-radius: 10px;
 }
 
 .portfolio-item-thumbnail {
