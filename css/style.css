@@ -482,6 +482,8 @@ button{
 
 .portfolio-popup.open .pp-content{
     opacity: 1;
+    transform: scale(1);
+    
 }
 
 .pp-header {
