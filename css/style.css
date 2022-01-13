@@ -502,3 +502,7 @@ button{
 .pp-body .general-info li span{
     font-weight: 300;
 }
+
+.pp-body .general-info li a {
+    text-transform: lowercase;
+}
