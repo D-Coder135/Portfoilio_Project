@@ -404,6 +404,10 @@ button{
     width: 100%;
 }
 
+.portfolio-item-thumbnail {
+    padding: 10px;
+}
+
 .portfolio-item-details{
     display: none;
 }
