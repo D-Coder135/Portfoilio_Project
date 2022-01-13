@@ -22,5 +22,5 @@ document.addEventListener("click", (e) => {
 });
 
 function togglePortfolioPopup() {
-    
+    document.querySelector(".portfolio-popup").classList.toggle("open");
 }
