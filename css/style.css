@@ -400,6 +400,10 @@ button{
     margin: 0 15px 30px;
 }
 
+.portfolio-item-thumbnail img{
+    width: 100%;
+}
+
 .portfolio-item-details{
     display: none;
 }
