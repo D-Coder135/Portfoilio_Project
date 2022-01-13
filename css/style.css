@@ -438,3 +438,7 @@ button{
     z-index: 200;
     /* opacity: 0.5; */
 }
+
+.pp-inner {
+    background-color: red;
+}
