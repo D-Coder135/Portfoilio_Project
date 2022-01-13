@@ -442,6 +442,7 @@ button{
     z-index: 200;
     /* opacity: 0.5; */
     overflow-y: auto;
+    visibility: hidden;
 }
 
 .pp-inner {
