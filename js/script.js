@@ -18,7 +18,7 @@ tabsContainer.addEventListener("click", (e) => {
 document.addEventListener("click", (e) => {
     if(e.target.classList.contains("view-project-btn")) {
         togglePortfolioPopup();   
-        portfolioItemDetails();
+        portfolioItemDetails(e.target.parentElement);
     }
 });
 
@@ -29,3 +29,5 @@ function togglePortfolioPopup() {
 }
 
 document.querySelector(".pp-close").addEventListener("click", togglePortfolioPopup);
+
+  
