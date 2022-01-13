@@ -444,3 +444,7 @@ button{
     min-height: 100vh;
     padding: 40px 15px;
 }
+
+.pp-content {
+    background-color: var(--white-alpha-25);
+}
