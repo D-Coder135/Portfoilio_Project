@@ -483,7 +483,7 @@ button{
 .portfolio-popup.open .pp-content{
     opacity: 1;
     transform: scale(1);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease;
 }
 
 .pp-header {
