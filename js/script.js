@@ -20,3 +20,7 @@ document.addEventListener("click", (e) => {
         togglePortfolioPopup();   
     }
 });
+
+function togglePortfolioPopup() {
+    
+}
