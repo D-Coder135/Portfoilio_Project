@@ -453,4 +453,5 @@ button{
     background-color: var(--white-alpha-25);
     padding: 30px;
     border: 1px solid var(--white-alpha-40);
+    border-radius: 30px;
 }
