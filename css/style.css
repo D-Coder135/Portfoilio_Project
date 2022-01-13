@@ -462,3 +462,7 @@ button{
 .pp-header {
     position: relative;
 }
+
+.pp-header .btn {
+    position: absolute;
+}
