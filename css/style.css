@@ -406,6 +406,7 @@ button{
 
 .portfolio-item-thumbnail {
     padding: 10px;
+    background-color: var(--white-alpha-25);
 }
 
 .portfolio-item-details{
