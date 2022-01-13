@@ -394,3 +394,7 @@ button{
 }
 
 /* Portfolio Section */
+
+.portfolio-item {
+    width: calc((100% / 3) - 30px);
+}
