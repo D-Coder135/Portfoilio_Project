@@ -465,4 +465,5 @@ button{
 
 .pp-header .btn {
     /* position: absolute; */
+    height: 40px;
 }
