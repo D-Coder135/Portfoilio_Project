@@ -436,4 +436,5 @@ button{
     width: 100%;
     background-color: red;
     z-index: 200;
+    opacity: 0.5;
 }
