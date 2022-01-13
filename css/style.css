@@ -456,4 +456,5 @@ button{
     border-radius: 30px;
     max-width: 900px;
     width: 100%;
+    backdrop-filter: var(--backdrop-filter-blur);
 }
