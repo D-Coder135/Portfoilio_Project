@@ -430,4 +430,6 @@ button{
 
 .portfolio-popup {
     position: fixed;
+    left: 0;
+    
 }
