@@ -476,6 +476,7 @@ button{
     max-width: 900px;
     width: 100%;
     backdrop-filter: var(--backdrop-filter-blur);
+    opacity: 0;
 }
 
 .pp-header {
