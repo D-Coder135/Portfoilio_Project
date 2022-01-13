@@ -443,6 +443,7 @@ button{
     /* background-color: red; */
     min-height: 100vh;
     padding: 40px 15px;
+    display: flex;
 }
 
 .pp-content {
