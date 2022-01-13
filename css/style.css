@@ -478,3 +478,7 @@ button{
 .pp-thumbnail img{
     border-radius: 10px;
 }
+
+.pp-header h3 {
+    font-size: 25px;
+}
