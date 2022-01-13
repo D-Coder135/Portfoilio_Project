@@ -445,6 +445,10 @@ button{
     visibility: hidden;
 }
 
+.portfolio-popup.open {
+    visibility: visible;
+}
+
 .pp-inner {
     /* background-color: red; */
     min-height: 100vh;
