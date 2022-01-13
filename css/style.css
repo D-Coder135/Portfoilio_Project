@@ -484,3 +484,7 @@ button{
     text-transform: capitalize;
     margin: 20px 0 15px;
 }
+
+.pp-body .description {
+    margin-bottom: 20px;
+}
