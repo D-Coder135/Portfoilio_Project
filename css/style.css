@@ -505,4 +505,5 @@ button{
 
 .pp-body .general-info li a {
     text-transform: lowercase;
+    color: var(--main-color);
 }
