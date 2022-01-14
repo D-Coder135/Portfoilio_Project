@@ -274,6 +274,7 @@ button{
     width: 100%;
     /* background-color: blue; */
     padding: 35px 15px;
+    visibility: hidden;
 }
 
 .header .nav-inner {
