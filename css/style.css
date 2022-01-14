@@ -547,6 +547,7 @@ button{
 .contact-form .input-control::placeholder {
     color: var(--blue-dark);
     opacity: 0.8;
+    font-weight: 300;
 }
 
 .contact-form .input-control {
