@@ -219,6 +219,7 @@ button{
     border: 1px solid var(--white-alpha-40);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .header .nav-toggler span {
