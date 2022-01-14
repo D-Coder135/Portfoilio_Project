@@ -314,6 +314,7 @@ button{
     height: 50%;
     width: 100%;
     background-color: var(--white-alpha-25);
+    z-index: -1;
 }
 
 .header .nav-inner ul li a:hover {
