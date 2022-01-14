@@ -6,6 +6,7 @@ const navToggler = document.querySelector(".nav-toggler");
 navToggler.addEventListener("click", () => {
     hideSection();
     toggleNavbar();
+    document.body.classList.toggle("hide-scrolling");
 });
 
 function hideSection() {
