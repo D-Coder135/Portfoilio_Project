@@ -209,6 +209,10 @@ button{
 
 /* Header */
 
+.header {
+    background-color: red;
+}
+
 .header .nav-toggler {
     width: 50px;
     height: 50px;
