@@ -279,6 +279,7 @@ button{
 .header .nav-inner {
     min-height: calc(100vh - 70vh);
     background-color: red;
+    max-width: 1200px;
 }
 
 /* Home Section */
