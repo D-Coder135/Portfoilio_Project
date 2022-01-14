@@ -580,3 +580,7 @@ button{
     margin: 0 0 30px;
     padding: 0 0 0 20px;
 }
+
+.contact-info-item h3 {
+    font-size: 20px;
+}
