@@ -8,7 +8,7 @@ navToggler.addEventListener("click", () => {
 });
 
 function hideSection() {
-    
+    document.querySelector("section.active").classList.toggle("fade-out");
 }
 
 
