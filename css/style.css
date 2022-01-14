@@ -300,6 +300,7 @@ button{
     text-transform: capitalize;
     color: var(--blue-dark);
     display: block;
+    font-weight: 500;
 }
 
 /* Home Section */
