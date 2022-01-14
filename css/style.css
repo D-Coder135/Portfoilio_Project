@@ -222,6 +222,7 @@ button{
 .header .nav-toggler span {
     height: 2px;
     width: 24px;
+    background-color: var(--main-color);
 }
 
 /* Home Section */
