@@ -308,6 +308,7 @@ button{
 
 .header .nav-inner ul li a::before {
     content: '';
+    position: absolute;
 }
 
 .header .nav-inner ul li a:hover {
