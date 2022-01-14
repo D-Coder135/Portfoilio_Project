@@ -318,6 +318,10 @@ button{
     transition: width 0.5s ease;
 }
 
+.header .nav-inner ul li a:hover::before {
+    width: 100%;
+}
+
 .header .nav-inner ul li a:hover {
     color: var(--main-color);
 }
