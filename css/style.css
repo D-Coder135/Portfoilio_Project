@@ -250,6 +250,12 @@ button{
     transform: translateY(8px);
 }
 
+.header .nav-toggler:hover span::before,
+.header .nav-toggler:hover span::after {
+    width: 50%;
+}
+
+
 /* Home Section */
 
 .home-section{
