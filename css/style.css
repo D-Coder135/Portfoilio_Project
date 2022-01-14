@@ -538,3 +538,7 @@ button{
     width: 50%;
     padding: 0 15px;
 }
+
+.contact-form .input-group {
+    width: 100%;
+}
