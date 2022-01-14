@@ -594,4 +594,5 @@ button{
     height: 40px;
     width: 40px;
     background-color: var(--white-alpha-25);
+    color: var(--main-color);
 }
