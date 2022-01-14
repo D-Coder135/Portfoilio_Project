@@ -226,6 +226,7 @@ button{
     height: 2px;
     width: 24px;
     background-color: var(--main-color);
+    position: relative;
 }
 
 /* Home Section */
