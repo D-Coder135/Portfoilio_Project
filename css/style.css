@@ -575,3 +575,7 @@ button{
     resize: none;
     padding-top: 15px;
 }
+
+.contact-info-item {
+    margin: 0 0 30px;
+}
