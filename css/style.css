@@ -277,7 +277,7 @@ button{
 }
 
 .header .nav-inner {
-    min-height: 50vh;
+    min-height: calc(100vh - 70vh);
     background-color: red;
 }
 
