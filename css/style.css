@@ -277,7 +277,7 @@ button{
 }
 
 .header .nav-inner {
-    min-height: calc(100vh - 70vh);
+    min-height: calc(100vh - 70px);
     background-color: red;
     max-width: 1200px;
     margin: auto;
