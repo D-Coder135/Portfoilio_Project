@@ -205,6 +205,11 @@ button{
 
 /* Header */
 
+.header .nav-toggler {
+    width: 50px;
+}
+
+
 /* Home Section */
 
 .home-section{
