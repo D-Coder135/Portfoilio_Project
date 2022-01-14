@@ -17,6 +17,8 @@ function toggleNavbar() {
     document.querySelector(".header").classList.toggle("active");
 }
 
+// Active Section
+
 
 // About Tabs
 
