@@ -299,6 +299,7 @@ button{
     font-size: 40px;
     text-transform: capitalize;
     color: var(--blue-dark);
+    display: block;
 }
 
 /* Home Section */
