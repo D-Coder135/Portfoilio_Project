@@ -94,6 +94,10 @@ section{
     display: none;
 }
 
+section.active {
+    display: block;
+}
+
 .main{
     /* background-color: red;    */
     max-width: 1200px;
