@@ -295,6 +295,10 @@ button{
     text-align: center;
 }
 
+.header .nav-inner ul li a{
+    font-size: 40px;
+}
+
 /* Home Section */
 
 .home-section{
