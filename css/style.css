@@ -98,6 +98,10 @@ section.active {
     display: block;
 }
 
+section.fade-out {
+    animation: fadeOut 0.5s ease-in-out forwards;
+}
+
 .main{
     /* background-color: red;    */
     max-width: 1200px;
