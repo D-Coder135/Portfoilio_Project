@@ -309,6 +309,7 @@ button{
 .header .nav-inner ul li a::before {
     content: '';
     position: absolute;
+    right: 0;
 }
 
 .header .nav-inner ul li a:hover {
