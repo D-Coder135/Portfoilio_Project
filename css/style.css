@@ -563,6 +563,7 @@ button{
     padding: 0 20px;
     color: var(--blue-dark);
     border: 1px solid transparent;
+    transition: border-color 0.3s ease;
 }
 
 .contact-form .input-control:focus {
