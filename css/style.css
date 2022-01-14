@@ -548,4 +548,5 @@ button{
     display: block;
     width: 100%;
     height: 50px;
+    border-radius: 25px;
 }
