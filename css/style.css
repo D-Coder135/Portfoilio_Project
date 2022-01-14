@@ -546,4 +546,5 @@ button{
 
 .contact-form .input-control {
     display: block;
+    width: 100%;
 }
