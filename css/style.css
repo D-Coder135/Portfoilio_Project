@@ -283,6 +283,7 @@ button{
     margin: auto;
     border: 1px solid var(--white-alpha-40);
     backdrop-filter: var(--backdrop-filter-blur);
+    padding: 50px 0;
 }
 
 /* Home Section */
