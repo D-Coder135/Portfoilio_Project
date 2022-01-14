@@ -4,7 +4,7 @@
 // Toggle Navbar 
 const navToggler = document.querySelector(".nav-toggler");
 navToggler.addEventListener("click", () => {
-    
+    hideSection();
 });
 
 
