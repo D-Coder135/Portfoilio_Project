@@ -246,6 +246,7 @@ button{
 
 .header .nav-toggler span::after {
     right: 0;
+    transform: translateY(8px);
 }
 
 /* Home Section */
