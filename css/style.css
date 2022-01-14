@@ -281,6 +281,7 @@ button{
     background-color: var(--white-alpha-40);
     max-width: 1200px;
     margin: auto;
+    border: 1px solid var(--white-alpha-40);
 }
 
 /* Home Section */
