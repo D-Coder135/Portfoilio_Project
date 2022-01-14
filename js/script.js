@@ -2,6 +2,7 @@
 
 
 // Toggle Navbar 
+const navToggler = document.querySelector(".nav-toggler");
 
 
 
