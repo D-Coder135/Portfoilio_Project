@@ -248,6 +248,10 @@ button{
     padding: 20px 0 0;
 }
 
+.header.active {
+    position: fixed;
+}
+
 .header .nav-toggler {
     width: 50px;
     height: 50px;
