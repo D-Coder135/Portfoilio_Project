@@ -210,6 +210,7 @@ button{
     height: 40px;
     border: none;
     cursor: pointer;
+    border-radius: 50%;
 }
 
 
