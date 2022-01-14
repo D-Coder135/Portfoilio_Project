@@ -603,4 +603,5 @@ button{
 
 .contact-info-item .social-links a:hover {
     color: var(--white);
+    background-color: var(--main-color);
 }
