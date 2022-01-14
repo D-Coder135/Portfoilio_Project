@@ -595,4 +595,5 @@ button{
     width: 40px;
     background-color: var(--white-alpha-25);
     color: var(--main-color);
+    border-radius: 50%;
 }
