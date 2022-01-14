@@ -239,6 +239,10 @@ button{
     background-color: var(--main-color);
 }
 
+.header .nav-toggler span::before {
+    left: 0;
+}
+
 /* Home Section */
 
 .home-section{
