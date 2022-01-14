@@ -276,7 +276,7 @@ button{
 }
 
 .header .nav-inner {
-
+    min-height: 100vh;
 }
 
 /* Home Section */
