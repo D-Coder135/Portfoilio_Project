@@ -589,4 +589,5 @@ button{
 
 .contact-info-item .social-links a {
     display: inline-flex;
+    height: 40px;
 }
