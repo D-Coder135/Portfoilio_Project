@@ -276,6 +276,7 @@ button{
     /* background-color: blue; */
     padding: 35px 15px;
     overflow-y: auto;
+    visibility: hidden;
 }
 
 .header .nav-inner {
