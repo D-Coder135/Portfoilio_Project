@@ -301,6 +301,7 @@ button{
     color: var(--blue-dark);
     display: block;
     font-weight: 500;
+    padding: 8px 15px;
 }
 
 /* Home Section */
