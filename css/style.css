@@ -312,7 +312,7 @@ button{
     right: 0;
     bottom: 0;
     height: 50%;
-    width: 100%;
+    width: 0%;
     background-color: var(--white-alpha-25);
     z-index: -1;
 }
