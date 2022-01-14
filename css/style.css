@@ -306,6 +306,10 @@ button{
     position: relative;
 }
 
+.header .nav-inner ul li a::before {
+    content: '';
+}
+
 .header .nav-inner ul li a:hover {
     color: var(--main-color);
 }
