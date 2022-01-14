@@ -564,3 +564,7 @@ button{
     color: var(--blue-dark);
     border: 1px solid transparent;
 }
+
+.contact-form textarea.input-control {
+    height: 120px;
+}
