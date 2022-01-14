@@ -600,3 +600,7 @@ button{
     margin: 6px 4px 0 0;
     transition: all 0.3s ease;
 }
+
+.contact-info-item .social-links a:hover {
+    color: var(--white);
+}
