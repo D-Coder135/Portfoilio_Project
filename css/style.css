@@ -303,6 +303,7 @@ button{
     font-weight: 500;
     padding: 8px 15px;
     transition: color 0.3s ease;
+    position: relative;
 }
 
 .header .nav-inner ul li a:hover {
