@@ -332,7 +332,7 @@ button{
 /* Home Section */
 
 .home-section{
-    display: flex;
+    /* display: flex; */
     padding: 120px 0;
 }
 
