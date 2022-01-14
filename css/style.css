@@ -315,6 +315,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0;
 }
 
 .header .nav-inner ul li{
