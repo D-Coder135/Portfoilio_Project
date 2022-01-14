@@ -212,6 +212,7 @@ button{
     cursor: pointer;
     border-radius: 50%;
     background-color: var(--white-alpha-25);
+    border: 1px solid var(--white-alpha-40);
 }
 
 
