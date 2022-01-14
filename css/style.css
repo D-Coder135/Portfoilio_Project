@@ -213,6 +213,7 @@ button{
     background-color: red;
     position: absolute;
     left: 0;
+    top: 0;
 }
 
 .header .nav-toggler {
