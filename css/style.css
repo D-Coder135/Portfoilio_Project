@@ -287,6 +287,10 @@ button{
     border-radius: 30px;
 }
 
+.header .nav-inner ul {
+    background-color: red;
+}
+
 /* Home Section */
 
 .home-section{
