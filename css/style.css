@@ -543,3 +543,7 @@ button{
     width: 100%;
     margin-bottom: 30px;
 }
+
+.contact-form .input-control {
+    display: block;
+}
