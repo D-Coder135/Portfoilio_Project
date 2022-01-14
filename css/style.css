@@ -287,6 +287,7 @@ button{
     border-radius: 30px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .header .nav-inner ul {
