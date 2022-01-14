@@ -273,6 +273,7 @@ button{
     height: 100%;
     width: 100%;
     background-color: blue;
+    padding: 35px 15px;
 }
 
 .header .nav-inner {
