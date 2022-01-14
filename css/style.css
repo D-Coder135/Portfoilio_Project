@@ -311,6 +311,7 @@ button{
     position: absolute;
     right: 0;
     bottom: 0;
+    height: 50%;
 }
 
 .header .nav-inner ul li a:hover {
