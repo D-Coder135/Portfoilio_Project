@@ -299,6 +299,10 @@ button{
     visibility: hidden;
 }
 
+.header.active .nav {
+    visibility: visible;
+}
+
 .header .nav-inner {
     min-height: calc(100vh - 70px);
     background-color: var(--white-alpha-40);
