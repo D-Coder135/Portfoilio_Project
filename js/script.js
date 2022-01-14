@@ -12,6 +12,10 @@ function hideSection() {
     document.querySelector("section.active").classList.toggle("fade-out");
 }
 
+function toggleNavbar() {
+    
+}
+
 
 // About Tabs
 
