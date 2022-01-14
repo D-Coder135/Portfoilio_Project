@@ -7,6 +7,9 @@ navToggler.addEventListener("click", () => {
     hideSection();
 });
 
+function hideSection() {
+    
+}
 
 
 // About Tabs
