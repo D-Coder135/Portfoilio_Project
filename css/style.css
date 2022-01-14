@@ -219,6 +219,9 @@ button{
     border: 1px solid var(--white-alpha-40);
 }
 
+.header .nav-toggler span {
+    height: 2px;
+}
 
 /* Home Section */
 
