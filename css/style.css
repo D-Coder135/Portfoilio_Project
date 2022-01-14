@@ -300,6 +300,10 @@ button{
     transform: translateY(8px);
 }
 
+.header.active .nav-toggler span::after {
+    transform: rotate(-45deg);
+}
+
 .header .nav-toggler:hover span::before,
 .header .nav-toggler:hover span::after {
     width: 50%;
