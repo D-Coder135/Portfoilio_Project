@@ -544,6 +544,10 @@ button{
     margin-bottom: 30px;
 }
 
+.contact-form .input-control::placeholder {
+    color: var(--blue-dark);
+}
+
 .contact-form .input-control {
     display: block;
     width: 100%;
