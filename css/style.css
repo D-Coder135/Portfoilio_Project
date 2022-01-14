@@ -302,6 +302,7 @@ button{
     display: block;
     font-weight: 500;
     padding: 8px 15px;
+    transition: color 0.3s ease;
 }
 
 /* Home Section */
