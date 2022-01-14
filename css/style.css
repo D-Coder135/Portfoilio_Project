@@ -298,6 +298,7 @@ button{
 .header .nav-inner ul li a{
     font-size: 40px;
     text-transform: capitalize;
+    color: var(--blue-dark);
 }
 
 /* Home Section */
