@@ -597,5 +597,6 @@ button{
     border: 1px solid var(--white-alpha-40);
     color: var(--main-color);
     border-radius: 50%;
-    margin: 6px 4px 0 0 ;
+    margin: 6px 4px 0 0;
+    transition: all 0.3s ease;
 }
