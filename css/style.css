@@ -556,4 +556,5 @@ button{
     background-color: var(--white-alpha-25);
     padding: 0 20px;
     color: var(--blue-dark);
+    border: 1px solid transparent;
 }
