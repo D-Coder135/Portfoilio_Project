@@ -266,6 +266,9 @@ button{
     width: 50%;
 }
 
+.header .nav {
+    position: fixed;
+}
 
 /* Home Section */
 
