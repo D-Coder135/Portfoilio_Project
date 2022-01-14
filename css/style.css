@@ -568,4 +568,5 @@ button{
 .contact-form textarea.input-control {
     height: 120px;
     resize: none;
+    padding-top: 15px;
 }
