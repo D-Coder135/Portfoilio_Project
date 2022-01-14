@@ -280,6 +280,7 @@ button{
     min-height: calc(100vh - 70vh);
     background-color: red;
     max-width: 1200px;
+    margin: auto;
 }
 
 /* Home Section */
