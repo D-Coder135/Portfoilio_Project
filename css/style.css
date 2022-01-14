@@ -229,6 +229,11 @@ button{
     position: relative;
 }
 
+.header .nav-toggler span::before,
+.header .nav-toggler span::after {
+    content: '';
+}
+
 /* Home Section */
 
 .home-section{
