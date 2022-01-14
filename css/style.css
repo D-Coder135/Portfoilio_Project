@@ -230,6 +230,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 15px;
 }
 
 .header .nav-toggler span {
