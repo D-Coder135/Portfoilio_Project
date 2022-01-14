@@ -533,13 +533,6 @@ button{
 
 /* Contact Section */
 
-.contact-form {
-    background-color: red;
-}
-.contact-info {
-    background-color: green;
-}
-
 .contact-form,
 .contact-info{
     width: 50%;
