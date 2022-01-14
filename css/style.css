@@ -553,4 +553,5 @@ button{
     font-family: inherit;
     font-weight: 400;
     font-size: 16px;
+    background-color: var(--white-alpha-25);
 }
