@@ -310,6 +310,7 @@ button{
     content: '';
     position: absolute;
     right: 0;
+    bottom: 0;
 }
 
 .header .nav-inner ul li a:hover {
