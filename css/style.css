@@ -244,6 +244,10 @@ button{
     transform: translateY(-8px);
 }
 
+.header .nav-toggler span::after {
+    right: 0;
+}
+
 /* Home Section */
 
 .home-section{
