@@ -291,8 +291,8 @@ button{
     justify-content: center;
 }
 
-.header .nav-inner ul {
-    
+.header .nav-inner ul li{
+    text-align: center;
 }
 
 /* Home Section */
