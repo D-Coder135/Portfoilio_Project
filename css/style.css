@@ -291,6 +291,10 @@ button{
     transform: translateY(-8px);
 }
 
+.header.active .nav-toggler span::before {
+    transform: rotate(45deg);
+}
+
 .header .nav-toggler span::after {
     right: 0;
     transform: translateY(8px);
