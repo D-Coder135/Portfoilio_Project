@@ -539,3 +539,8 @@ button{
 .contact-info {
     background-color: green;
 }
+
+.contact-form,
+.contact-info{
+    width: 50%;
+}
