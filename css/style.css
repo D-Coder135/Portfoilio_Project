@@ -586,3 +586,7 @@ button{
     text-transform: capitalize;
     margin: 0 0 5px;
 }
+
+.contact-info-item .social-links a {
+    display: inline-flex;
+}
