@@ -233,6 +233,7 @@ button{
 .header .nav-toggler span::after {
     content: '';
     position: absolute;
+    top: 0;
 }
 
 /* Home Section */
