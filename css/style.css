@@ -209,6 +209,7 @@ button{
     width: 50px;
     height: 40px;
     border: none;
+    cursor: pointer;
 }
 
 
