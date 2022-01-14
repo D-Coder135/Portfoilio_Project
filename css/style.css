@@ -584,4 +584,5 @@ button{
 .contact-info-item h3 {
     font-size: 20px;
     text-transform: capitalize;
+    margin: 0 0 5px;
 }
