@@ -238,6 +238,9 @@ button{
 }
 
 /* Overlay */
+.overlay {
+    position: fixed;
+}
 
 /* Header */
 
