@@ -20,7 +20,9 @@ function toggleNavbar() {
 // Active Section
 
 document.addEventListener("click", (e) => {
-    
+    if(e.target.classList.contains("link-item") && e.target.hash !== "") {
+        
+    }
 });
 
 
