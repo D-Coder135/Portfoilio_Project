@@ -249,6 +249,10 @@ button{
     visibility: hidden;
 }
 
+.overlay.active {
+    visibility: visible;
+}
+
 /* Header */
 
 .header {
