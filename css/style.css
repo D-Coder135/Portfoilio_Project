@@ -244,6 +244,7 @@ button{
     height: 100%;
     max-width: 1200px;
     width: calc(100% - 30px);
+    left: 50%;
 }
 
 /* Overlay */
