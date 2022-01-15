@@ -238,6 +238,9 @@ button{
 }
 
 /* Background Circles */
+.bg-circles {
+    position: fixed;
+}
 
 /* Overlay */
 .overlay {
