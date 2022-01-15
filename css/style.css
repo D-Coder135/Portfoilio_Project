@@ -254,6 +254,7 @@ button{
 .bg-circles .circle-1{
     height: 60px;
     width: 60px;
+    background-color: var(--blue);
 }
 
 /* Overlay */
