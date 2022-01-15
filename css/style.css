@@ -246,7 +246,7 @@ button{
 }
 @keyframes bounceTop {
     0%, 100%{
-        transform: scale(-50px);
+        transform: translateY(-50px);
     }
     50% {
         transform: translateY(0px);
@@ -286,6 +286,29 @@ button{
     opacity: 0.4;
     animation: bounceTop 5s ease-in-out infinite;
 }
+.bg-circles .circle-3{
+    height: 120px;
+    width: 120px;
+    background-color: var(--white);
+    left: 40%;
+    right: -60%;
+    opacity: 0.6;
+    animation: bounceTop 5s ease-in-out infinite;
+}
+.bg-circles .circle-4{
+    height: 50px;
+    width: 50px;
+    background-color: var(--orange);
+    left: -30%;
+    top: 80%;
+    opacity: 0.6;
+    animation: bounceTop 5s ease-in-out infinite;
+}
+
+
+
+
+
 
 /* Overlay */
 .overlay {
