@@ -246,6 +246,7 @@ button{
     width: 100%;
     z-index: 200;
     opacity: 0.5;
+    visibility: hidden;
 }
 
 /* Header */
