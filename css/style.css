@@ -246,6 +246,7 @@ button{
     width: calc(100% - 30px);
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1;
 }
 .bg-circles div {
     position: absolute;
