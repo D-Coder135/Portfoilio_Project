@@ -26,6 +26,7 @@ document.addEventListener("click", (e) => {
             toggleNavbar();
         } else {
             hideSection();
+            document.body.classList.add("hide-scrolling");
         }
         setTimeout(() => {
             document.querySelector("section.active").classList.remove("active", "fade-out");
