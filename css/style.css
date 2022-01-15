@@ -244,6 +244,14 @@ button{
         transform: scale(1);
     }
 }
+@keyframes bounceTop {
+    0%, 100%{
+        transform: scale(-50px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+}
 
 /* Background Circles */
 .bg-circles {
