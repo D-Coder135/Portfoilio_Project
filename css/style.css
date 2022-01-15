@@ -236,6 +236,14 @@ button{
         opacity: 0;
     }
 }
+@keyframes zoomInOut {
+    0%, 100%{
+        transform: scale(0.5);
+    }
+    50% {
+        transform: scale(1);
+    }
+}
 
 /* Background Circles */
 .bg-circles {
