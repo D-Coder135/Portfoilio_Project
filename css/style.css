@@ -240,6 +240,7 @@ button{
 /* Background Circles */
 .bg-circles {
     position: fixed;
+    top: 0;
 }
 
 /* Overlay */
