@@ -257,6 +257,7 @@ button{
     background-color: var(--blue);
     left: 5%;
     top: 10%;
+    opacity: 0.3;
 }
 
 /* Overlay */
