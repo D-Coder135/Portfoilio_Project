@@ -27,6 +27,9 @@ document.addEventListener("click", (e) => {
         } else {
             console.log("false");
         }
+        setTimeout(() => {
+
+        }, 500);
     }
 });
 
