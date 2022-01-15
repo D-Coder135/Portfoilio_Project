@@ -28,7 +28,7 @@ document.addEventListener("click", (e) => {
             console.log("false");
         }
         setTimeout(() => {
-
+            document.querySelector("section.active").classList.remove("active", "fade-out");
         }, 500);
     }
 });
