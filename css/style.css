@@ -249,6 +249,7 @@ button{
 }
 .bg-circles div {
     position: absolute;
+    border-radius: 50%;
 }
 .bg-circles .circle-1{
     height: 60px;
