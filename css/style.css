@@ -269,6 +269,15 @@ button{
     opacity: 0.3;
     animation: zoomInOut 8s linear infinite;
 }
+.bg-circles .circle-2{
+    height: 80px;
+    width: 80px;
+    background-color: var(--main-color);
+    left: 30%;
+    top: 50%;
+    opacity: 0.4;
+    animation: bounceTop 5s ease-in-out infinite;
+}
 
 /* Overlay */
 .overlay {
