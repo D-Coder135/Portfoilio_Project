@@ -292,16 +292,14 @@ button{
     left: 40%;
     right: -60%;
     opacity: 0.6;
-    animation: bounceTop 5s ease-in-out infinite;
 }
 .bg-circles .circle-4{
     height: 50px;
     width: 50px;
     background-color: var(--orange);
-    left: -30%;
+    left: -30px;
     top: 80%;
-    opacity: 0.6;
-    animation: bounceTop 5s ease-in-out infinite;
+    opacity: 0.7;
 }
 
 
