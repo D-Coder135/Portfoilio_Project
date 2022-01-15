@@ -24,6 +24,8 @@ document.addEventListener("click", (e) => {
         const hash = e.target.hash;
         if(e.target.classList.contains("nav-item")) {
             toggleNavbar();
+        } else {
+            
         }
     }
 });
