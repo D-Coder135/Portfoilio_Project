@@ -255,6 +255,8 @@ button{
     height: 60px;
     width: 60px;
     background-color: var(--blue);
+    left: 5%;
+    top: 10%;
 }
 
 /* Overlay */
