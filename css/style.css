@@ -245,6 +245,7 @@ button{
     max-width: 1200px;
     width: calc(100% - 30px);
     left: 50%;
+    transform: translateX(-50%);
 }
 
 /* Overlay */
