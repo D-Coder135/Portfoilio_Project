@@ -275,6 +275,10 @@ button{
     transition: opacity 0.5s ease-in-out;
 }
 
+.header .nav-toggler.hide {
+    opacity: 0;
+}
+
 .header .nav-toggler span {
     height: 2px;
     width: 24px;
