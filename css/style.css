@@ -242,6 +242,7 @@ button{
     position: fixed;
     top: 0;
     height: 100%;
+    max-width: 1200px;
 }
 
 /* Overlay */
