@@ -247,6 +247,9 @@ button{
     left: 50%;
     transform: translateX(-50%);
 }
+.bg-circles div {
+    position: absolute;
+}
 
 /* Overlay */
 .overlay {
