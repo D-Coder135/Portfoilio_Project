@@ -289,8 +289,8 @@ button{
     height: 120px;
     width: 120px;
     background-color: var(--white);
-    left: 40%;
-    right: -60%;
+    top: 40%;
+    right: -60px;
     opacity: 0.6;
 }
 .bg-circles .circle-4{
@@ -301,11 +301,6 @@ button{
     top: 80%;
     opacity: 0.7;
 }
-
-
-
-
-
 
 /* Overlay */
 .overlay {
