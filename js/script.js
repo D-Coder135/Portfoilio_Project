@@ -33,6 +33,7 @@ document.addEventListener("click", (e) => {
             document.querySelector(e.target.hash).classList.add("active");
             window.scrollTo(0, 0);
             document.body.classList.remove("hide-scrolling");
+            navToggler.classList.remove("hide")
         }, 500);
     }
 });
