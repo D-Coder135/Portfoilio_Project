@@ -19,6 +19,10 @@ function toggleNavbar() {
 
 // Active Section
 
+document.addEventListener("click", (e) => {
+    
+});
+
 
 // About Tabs
 
