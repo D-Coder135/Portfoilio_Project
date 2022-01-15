@@ -30,6 +30,7 @@ document.addEventListener("click", (e) => {
         setTimeout(() => {
             document.querySelector("section.active").classList.remove("active", "fade-out");
             document.querySelector(e.target.hash).classList.add("active");
+            window.scrollTo(0, 0);
         }, 500);
     }
 });
