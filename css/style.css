@@ -243,6 +243,7 @@ button{
     top: 0;
     height: 100%;
     max-width: 1200px;
+    width: calc(100% - 30px);
 }
 
 /* Overlay */
