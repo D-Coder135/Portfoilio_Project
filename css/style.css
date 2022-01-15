@@ -240,6 +240,7 @@ button{
 /* Overlay */
 .overlay {
     position: fixed;
+    left: 0;
 }
 
 /* Header */
