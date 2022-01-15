@@ -21,6 +21,7 @@ function toggleNavbar() {
 
 document.addEventListener("click", (e) => {
     if(e.target.classList.contains("link-item") && e.target.hash !== "") {
+        document.querySelector(".overlay").classList.add("active");
         navToggler.classList.add("hide")
         if(e.target.classList.contains("nav-item")) {
             toggleNavbar();
