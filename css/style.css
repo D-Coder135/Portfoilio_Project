@@ -319,6 +319,9 @@ button{
 }
 
 /* Page Loader */
+.page-loader {
+    position: fixed;
+}
 
 /* Header */
 
