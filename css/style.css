@@ -321,6 +321,7 @@ button{
 /* Page Loader */
 .page-loader {
     position: fixed;
+    left: 0;
 }
 
 /* Header */
