@@ -359,6 +359,7 @@ button{
     height: 45px;
     width: 45px;
     border-color: var(--blue);
+    animation-duration: 1.2s;
 }
 .page-loader div:nth-child(3) {
     height: 30px;
