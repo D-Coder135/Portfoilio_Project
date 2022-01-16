@@ -913,4 +913,7 @@ button{
     .home-text h1 {
         font-size: 30px;
     }
+    .home-text h2 {
+        font-size: 18px;
+    }
 }
