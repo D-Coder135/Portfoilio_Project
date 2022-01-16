@@ -342,6 +342,11 @@ button{
     width: 45px;
     border-color: var(--blue);
 }
+.page-loader div:nth-child(3) {
+    height: 30px;
+    width: 30px;
+    border-color: var(--orange);
+}
 
 /* Header */
 
