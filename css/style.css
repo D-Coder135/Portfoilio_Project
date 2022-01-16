@@ -329,6 +329,9 @@ button{
     background-color: var(--white-alpha-25);
     backdrop-filter: var(--backdrop-filter-blur);
 }
+.page-loader div {
+    border: 2px solid transparent;
+}
 .page-loader div:nth-child(1) {
     height: 60px;
     width: 60px;
