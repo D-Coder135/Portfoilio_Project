@@ -340,6 +340,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: opacity 0.6s ease;
 }
 .page-loader div {
     border: 2px solid transparent;
