@@ -330,6 +330,7 @@ button{
     backdrop-filter: var(--backdrop-filter-blur);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .page-loader div {
     border: 2px solid transparent;
