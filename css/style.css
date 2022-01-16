@@ -910,6 +910,9 @@ button{
     
 }
 @media (max-width: 575px) {
+    .header .nav-inner ul li a{
+        font-size: 35px;
+    }
     .home-text h1 {
         font-size: 30px;
     }
