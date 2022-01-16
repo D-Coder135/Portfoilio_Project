@@ -905,6 +905,9 @@ button{
     .home-text .btn{
         margin: 0 7px 15px ;
     }
+    .portfolio-item{
+        width: calc(50% - 30px);
+    }
 }
 @media (max-width: 767px) {
     .about-img,
@@ -916,6 +919,7 @@ button{
     }
 }
 @media (max-width: 575px) {
+    .section-title h2,
     .header .nav-inner ul li a{
         font-size: 35px;
     }
