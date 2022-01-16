@@ -329,7 +329,7 @@ button{
     background-color: var(--white-alpha-25);
     backdrop-filter: var(--backdrop-filter-blur);
     display: flex;
-    
+    align-items: center;
 }
 .page-loader div {
     border: 2px solid transparent;
