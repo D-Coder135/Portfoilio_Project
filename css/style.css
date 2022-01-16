@@ -920,6 +920,9 @@ button{
     .portfolio-item{
         width: calc(100% - 30px);
     }
+    .pp-inner {
+        padding: 30px 15px;
+    }
 }
 @media (max-width: 575px) {
     .section-title h2,
