@@ -328,6 +328,8 @@ button{
     z-index: 999;
     background-color: var(--white-alpha-25);
     backdrop-filter: var(--backdrop-filter-blur);
+    display: flex;
+    
 }
 .page-loader div {
     border: 2px solid transparent;
