@@ -917,6 +917,9 @@ button{
     .about-text {
         margin-top: 30px;
     }
+    .portfolio-item{
+        width: calc(100% - 30px);
+    }
 }
 @media (max-width: 575px) {
     .section-title h2,
