@@ -339,6 +339,7 @@ button{
     opacity: 0.6;
     border-top-color: transparent !important;
     border-bottom-color: transparent !important;
+    animation: spin 1s linear infinite;
 }
 .page-loader div:nth-child(1) {
     height: 60px;
