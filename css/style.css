@@ -899,6 +899,9 @@ button{
     .home-img {
         order: -1;
     }
+    .home-img .img-box{
+        max-width: 300px;
+    }
 }
 @media (max-width: 767px) {
     
