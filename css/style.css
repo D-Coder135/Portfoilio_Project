@@ -893,6 +893,9 @@ button{
     .home-img{
         width: 100%;
     }
+    .home-text {
+        text-align: center;
+    }
 }
 @media (max-width: 767px) {
     
