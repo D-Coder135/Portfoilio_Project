@@ -907,7 +907,10 @@ button{
     }
 }
 @media (max-width: 767px) {
-    
+    .about-img,
+    .about-text {
+        width: 100%;
+    }
 }
 @media (max-width: 575px) {
     .header .nav-inner ul li a{
