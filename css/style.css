@@ -889,6 +889,10 @@ button{
     .container {
         padding: 0;
     }
+    .home-text,
+    .home-img{
+        width: 100%;
+    }
 }
 @media (max-width: 767px) {
     
