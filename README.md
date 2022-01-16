@@ -6,6 +6,7 @@ My objective was to build a Portfolio Website of my own from scratch. In today's
 
 ## What I have created
 
+![portfolio1](https://user-images.githubusercontent.com/59922056/149670038-84071cfd-e3f7-44b7-93c0-3e3d6cf52df7.jpg)
 
 
 
