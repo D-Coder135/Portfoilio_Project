@@ -331,6 +331,7 @@ button{
 }
 .page-loader div:nth-child(1) {
     height: 60px;
+    width: 60px;
 }
 
 /* Header */
