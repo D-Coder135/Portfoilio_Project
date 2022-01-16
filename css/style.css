@@ -929,6 +929,9 @@ button{
         order: -1;
         margin-bottom: 15px;
     }
+    .contact-info-item {
+        padding: 0;
+    }
 }
 @media (max-width: 575px) {
     .section-title h2,
