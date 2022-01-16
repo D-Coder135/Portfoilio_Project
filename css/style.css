@@ -334,6 +334,7 @@ button{
 }
 .page-loader div {
     border: 2px solid transparent;
+    position: absolute;
 }
 .page-loader div:nth-child(1) {
     height: 60px;
