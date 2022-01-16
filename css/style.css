@@ -318,6 +318,8 @@ button{
     visibility: visible;
 }
 
+/* Page Loader */
+
 /* Header */
 
 .header {
@@ -930,7 +932,7 @@ button{
         margin-bottom: 15px;
     }
     .contact-info-item {
-        padding: 0;
+        padding: 0 ;
     }
 }
 @media (max-width: 575px) {
