@@ -104,10 +104,10 @@ function portfolioItemDetails(portfolioItem) {
 }
 
 // Listen For Send Message
-document.querySelector(".contact-form").addEventListener("submit", submitForm);
+document.querySelector(".contact-form").addEventListener("submit", sendEmail);
 
-function submitForm(e) {
-    e.preventDefault();
+function sendEmail() {
+    
 
-    // Get Input Values
+    
 }
