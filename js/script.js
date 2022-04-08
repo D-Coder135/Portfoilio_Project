@@ -110,5 +110,4 @@ function submitForm(e) {
     e.preventDefault();
 
     // Get Input Values
-    
 }
