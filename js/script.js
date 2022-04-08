@@ -102,3 +102,6 @@ function portfolioItemDetails(portfolioItem) {
     document.querySelector(".pp-body").innerHTML = 
     portfolioItem.querySelector(".portfolio-item-details").innerHTML;
 }
+
+// Listen For Send Message
+document.querySelector(".contact-form").addEventListener("submit", submitForm); 
