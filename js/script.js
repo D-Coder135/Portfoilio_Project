@@ -108,4 +108,7 @@ document.querySelector(".contact-form").addEventListener("submit", submitForm);
 
 function submitForm(e) {
     e.preventDefault();
+
+    // Get Input Values
+    
 }
