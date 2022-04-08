@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
     <title>Portfolio Website</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Page Loader Start -->
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- Page Loader End -->
 
-<!-- Page Loader Start -->
-<div class="page-loader">
-    <div></div>
-    <div></div>
-    <div></div>
-</div>
-<!-- Page Loader End -->
+    <!-- Background Circles Start -->
 
-<!-- Background Circles Start -->
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
 
-<div class="bg-circles">
-    <div class="circle-1"></div>
-    <div class="circle-2"></div>
-    <div class="circle-3"></div>
-    <div class="circle-4"></div>
-</div>
-
-<!-- Background Circles End -->
+    <!-- Background Circles End -->
 
     <!-- Overlay Start -->
 
@@ -37,374 +36,630 @@
 
     <!-- Main Start -->
     <div class="main hidden">
+      <!-- Header Start -->
 
-        <!-- Header Start -->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">home</a></li>
+                  <li><a href="#about" class="nav-item link-item">about</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
 
-        <header class="header">
-            <div class="container">
-                <div class="row flex-end">
-                    <button type="button" class="nav-toggler">
-                        <span></span>
-                    </button>
-                    <nav class="nav">
-                        <div class="nav-inner">
-                            <ul>
-                                <li><a href="#home" class="nav-item link-item">home</a></li>
-                                <li><a href="#about" class="nav-item link-item">about</a></li>
-                                <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
-                                <li><a href="#contact" class="nav-item link-item">contact</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
+      <!-- Header End -->
+
+      <!-- Home Section Start -->
+
+      <section class="home-section align-items-center" id="home">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="home-text">
+              <p>Hello, I'm</p>
+              <h1>Devansh K Shukla</h1>
+              <h2>Cross Platform Dev</h2>
+              <a href="#about" class="btn link-item">more about me</a>
+              <a href="#portfolio" class="btn link-item">portfolio</a>
             </div>
-        </header>
-
-        <!-- Header End -->
-
-        <!-- Home Section Start -->
-
-        <section class="home-section align-items-center" id="home">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="home-text">
-                        <p>Hello, I'm</p>
-                        <h1>Devansh K Shukla</h1>
-                        <h2>Cross Platform Dev</h2>
-                        <a href="#about" class="btn link-item">more about me</a>
-                        <a href="#portfolio" class="btn link-item">portfolio</a>
-                    </div>
-                        <div class="home-img">
-                            <div class="img-box">
-                                <img src="images/image.png" alt="profile-img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-        <!-- Home Section End -->
-
-        <!-- About Section Start -->
-        <section class="about-section sec-padding" id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="section-title">
-                        <h2>
-                            about me
-                        </h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="about-img">
-                        <div class="img-box">
-                            <img src="images/about-img.png" alt="about image">
-                        </div>
-                    </div>
-                    <div class="about-text">
-                        <p>I'm an engineering graduate specializing in Computer Science & Engineering, from GLA University, Mathura with an overall CPI of 8.7 till 5th Sem. Along with my degree, I completed various courses based on the concepts of Object-Oriented Programming & Functional Programming in Java. Also, I have got the knowledge of Cross-Platform Application Development frameworks like Flutter & React-Native with hands-on experience on projects. Moreover, I have learned the basics and advanced topics of FullStack Frontend & Backend Development using the languages like HTML, CSS, Bootstrap & JavaScript.</p>
-                        <h3>skills</h3>
-                        <div class="skills">
-                            <div class="skill-item">java</div>
-                            <div class="skill-item">python</div>
-                            <div class="skill-item">flutter</div>
-                            <div class="skill-item">dart</div>
-                            <div class="skill-item">reactJs</div>
-                            <div class="skill-item">react-native</div>
-                            <div class="skill-item">html</div>
-                            <div class="skill-item">css</div>
-                            <div class="skill-item">javascript</div>
-                            <div class="skill-item">bootstrap</div>
-                        </div>
-
-
-                        <div class="about-tabs">
-                            <button type="button" class="tab-item active" data-target="#education">education</button>
-                            <button type="button" class="tab-item" data-target="#experience">experience</button>
-                        </div>
-
-                        <!-- Education Start -->
-                        <div class="tab-content active" id="education">
-                            <div class="timeline">
-                                <div class="timeline-item">
-                                    <span class="date">2019-2023</span>
-                                        <h4>bachelor of technology - <span>GLA university</span></h4>
-                                        <p>Pre-Final year student in Computer Science & Engineering with an overall CPI of 8.7.</p>
-                                </div>
-                                <div class="timeline-item">
-                                    <span class="date">2017-2018</span>
-                                        <h4>Senior Secondary - <span>st joseph's convent school</span></h4>
-                                        <p>Completed my 12th from ISC board with an overall percentage of 79.</p>
-                                </div>
-                                <div class="timeline-item">
-                                    <span class="date">2015-2016</span>
-                                        <h4>Seconday - <span>st joseph's convent school</span></h4>
-                                        <p>Completed my 10th from ICSE board with an overall percentage of 70.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Education End -->
-
-                        <!-- Experience Start -->
-
-                        <div class="tab-content" id="experience">
-                            <div class="timeline">
-                                <div class="timeline-item">
-                                    <span class="date">Apr21 - Aug21</span>
-                                    <h4>flutter developer intern - <span>era interfaces</span></h4>
-                                    <p>Developed a Cross-Platform crypto application using Dart language and Flutter framework.</p>
-                                </div>
-                                <div class="timeline-item">
-                                    <span class="date">Jun21 - Aug21</span>
-                                    <h4>android developer intern - <span>netcamp solutions pvt. ltd.</span></h4>
-                                    <p>Developed an All In One Android application using the concepts of core Java.</p>
-                                </div>
-                                <div class="timeline-item">
-                                    <span class="date">Jul21 - Aug21</span>
-                                    <h4>React-Native developer intern - <span>era interfaces</span></h4>
-                                    <p>Wrapped the home page of Tesla's official website inside a Cross-Platform application using React-Native.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Experience End -->
-
-                        <a href="RESUME.pdf" target="_blank" class="btn">download cv</a>
-                        <a href="#contact" class="btn link-item">contact me</a>
-                    </div>
-                </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="images/image.png" alt="profile-img" />
+              </div>
             </div>
-        </section>
-        <!-- About Section End -->
+          </div>
+        </div>
+      </section>
 
-        <!-- Portfolio Section Start -->
-        <section class="portfolio-section sec-padding" id="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="section-title">
-                        <h2>recent work</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- Portfolio Item Start -->
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="images/portfolio/candidate.png" alt="portfolio item thumb">
-                        </div>
-                        <h3 class="portfolio-item-title">candidate management system</h3>
-                        <button type="button" class="btn view-project-btn">view project</button>
-                        <div class="portfolio-item-details">
-                            <div class="description">
-                                <p>Developed a console based Java application that would allow the Admin of a Training Institute to add and view Candidate Information details as per the design specification of the project. The (core) Concept of Java Database Connectivity (JDBC) in Java Programming Language is used in this Project. Used XAMPP control panel to configure the servers of MySQL and Apache Web Server in order to access the database
-                                    using localhost/phpmyadmin.</p>
-                            </div>
-                            <div class="general-info">
-                                <ul>
-                                    <li>Created - <span>April 2021</span></li>
-                                    <li>technologies used - <span>Java, JDBC, SQL</span></li>
-                                    <li>Role - <span>Software Developer</span></li>
-                                    <li>View Online - <span><a href="https://github.com/D-Coder135/WiproProject" target="_blank">www.github.com/D-Coder135/WiproProject</a></span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Portfolio Item End -->
-                    <!-- Portfolio Item Start -->
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="images/portfolio/crypto.png" alt="portfolio item thumb">
-                        </div>
-                        <h3 class="portfolio-item-title">crypto crux application</h3>
-                        <button type="button" class="btn view-project-btn">view project</button>
-                        <div class="portfolio-item-details">
-                            <div class="description">
-                                <p>The objective of this project was to build an application that fetches the live rates of various Crypto-Currencies (in USD and INR both) using an API Call. The application also has a subscribe and unsubscribe functionality by which a user can add/remove crypto-currencies in which he/she is intrested, from the Homepage of the app. The application uses the online Google's Firebase Authentication and Firestore Database for authenticating its users and storing the data for each user separately. Hence providing a beautiful user interface depending on the platform i.e. Android or iOS.</p>
-                            </div>
-                            <div class="general-info">
-                                <ul>
-                                    <li>Created - <span>June 2021</span></li>
-                                    <li>technologies used - <span>Flutter, Dart, Android Studio</span></li>
-                                    <li>Role - <span>Cross Platform Developer</span></li>
-                                    <li>View Online - <span><a href="https://github.com/D-Coder135/crypto_application_project" target="_blank">www.github.com/D-Coder135/crypto_application_project</a></span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Portfolio Item End -->
-                    <!-- Portfolio Item Start -->
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="images/portfolio/all.png" alt="portfolio item thumb">
-                        </div>
-                        <h3 class="portfolio-item-title">all in one application</h3>
-                        <button type="button" class="btn view-project-btn">view project</button>
-                        <div class="portfolio-item-details">
-                            <div class="description">
-                                <p>The objective of this project was to build an application containing all the basic and intermediate features of an android device. The application contains all the types of login/signup features including the OTP & Login with Gmail. The application uses the online Google's Firebase Authentication and Firebase Realtime Database for authenticating its users and storing the data for each user respectively. As the name of the app suggests, a user can perform a bunch of tasks just by using a single application. The tasks list includes Sensor Actions📳, Media Actions🎵, Calculator Actions➕✖, Camera Actions📸🎥 and much more. Hence providing a beautiful user interface depending on the platform i.e. Android.</p>
-                            </div>
-                            <div class="general-info">
-                                <ul>
-                                    <li>Created - <span>July 2021</span></li>
-                                    <li>technologies used - <span>Android, Core Java, Android Studio</span></li>
-                                    <li>Role - <span>Android Developer</span></li>
-                                    <li>View Online - <span><a href="https://github.com/D-Coder135/All_In_One" target="_blank">www.github.com/D-Coder135/All_In_One</a></span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Portfolio Item End -->
-                    <!-- Portfolio Item Start -->
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="images/portfolio/tesla.png" alt="portfolio item thumb">
-                        </div>
-                        <h3 class="portfolio-item-title">tesla clone</h3>
-                        <button type="button" class="btn view-project-btn">view project</button>
-                        <div class="portfolio-item-details">
-                            <div class="description">
-                                <p>The objective of this project was to clone the Tesla's official website Homepage as a hybrid application using JavaScript & React-Native. The application renders a list of Tesla cars along with a beautiful animation while scrolling. The images are fetched using an API Call. The application is compatible on various platforms like Android, iOS, and Web.</p>
-                            </div>
-                            <div class="general-info">
-                                <ul>
-                                    <li>Created - <span>August 2021</span></li>
-                                    <li>technologies used - <span>React-Native, JavaScript, NodeJs, ExpoCLI</span></li>
-                                    <li>Role - <span>React-Native Developer</span></li>
-                                    <li>View Online - <span><a href="https://github.com/D-Coder135/TeslaClone_React-Native" target="_blank">www.github.com/D-Coder135/TeslaClone_React-Native</a></span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Portfolio Item End -->
-                    <!-- Portfolio Item Start -->
-                     <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="images/portfolio/music.png" alt="portfolio item thumb">
-                        </div>
-                        <h3 class="portfolio-item-title">music streaming website</h3>
-                        <button type="button" class="btn view-project-btn">view project</button>
-                        <div class="portfolio-item-details">
-                            <div class="description">
-                                <p>Created a music streaming website known as Rhythm And Beats. Created the frontend part of the website using the basic and advanced concepts of HTML, CSS, Bootstrap & JavaScript.</p>
-                            </div>
-                            <div class="general-info">
-                                <ul>
-                                    <li>Created - <span>November 2021</span></li>
-                                    <li>technologies used - <span>HTML, CSS, JavaScript</span></li>
-                                    <li>Role - <span>Frontend Developer</span></li>
-                                    <li>View Online - <span><a href="https://github.com/D-Coder135/Rhythm_And_Beats-Music-Streaming-Website-" target="_blank">www.github.com/D-Coder135/Rhythm_And_Beats-Music-Streaming-Website-</a></span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Portfolio Item End -->
-                    <!-- Portfolio Item Start -->
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="images/portfolio/portfolio.jpg" alt="portfolio item thumb">
-                        </div>
-                        <h3 class="portfolio-item-title">portfolio website</h3>
-                        <button type="button" class="btn view-project-btn">view project</button>
-                        <div class="portfolio-item-details">
-                            <div class="description">
-                                <p>Created my portfolio website from scratch using the basic and advance concepts of FullStack. The frontend part of the website was mainly created using the concepts of languages like HTML, CSS & Bootstrap. The backend part of the website was created by using the basic and core concepts of the JavaScript language.</p>
-                            </div>
-                            <div class="general-info">
-                                <ul>
-                                    <li>Created - <span>Jan 2022</span></li>
-                                    <li>technologies used - <span>HTML, CSS, JavaScript</span></li>
-                                    <li>Role - <span>Frontend & Backend Developer</span></li>
-                                    <li>View Online - <span><a href="https://github.com/D-Coder135/Portfoilio_Project" target="_blank">www.github.com/D-Coder135/Portfoilio_Project</a></span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Portfolio Item End -->
-                </div>
+      <!-- Home Section End -->
+
+      <!-- About Section Start -->
+      <section class="about-section sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>about me</h2>
             </div>
-        </section>
-        <!-- Portfolio Section End -->
-
-
-        <!-- Contact Section Start -->
-
-        <section class="contact-section sec-padding" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="section-title">
-                        <h2>contact me</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="contact-form">
-                        <form onsubmit="sendEmail(); reset(); return false;">
-                            <div class="row">
-                                <div class="input-group">
-                                    <input type="name" placeholder="Name" class="input-control" id="name" required>
-                                </div>
-                                <div class="input-group">
-                                    <input type="email" placeholder="Email" class="input-control" id="email" required>
-                                </div>
-                                <div class="input-group">
-                                    <input type="text" placeholder="Subject" class="input-control" id="subject" required>
-                                </div>
-                                <div class="input-group">
-                                    <textarea id="message" placeholder="Message" class="input-control" required></textarea>
-                                </div>
-                                <div class="submit-btn">
-                                    <button type="submit" class="btn">send message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="contact-info">
-                        <div class="contact-info-item">
-                            <h3>Email</h3>
-                            <p>devansh1352000@gmail.com</p>
-                        </div>
-                        <div class="contact-info-item">
-                            <h3>Phone</h3>
-                            <p>8542875214</p>
-                        </div>
-                        <div class="contact-info-item">
-                            <h3>Follow Me</h3>
-                            <div class="social-links">
-                                <a href="https://www.linkedin.com/in/devansh-k-shukla-63392a209/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                <a href="https://github.com/D-Coder135" target="_blank"><i class="fab fa-github"></i></a>
-                                <a href="https://www.facebook.com/DOptimist135/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://twitter.com/D_Optimist135" target="_blank"><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.instagram.com/de_coder135/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="images/about-img.png" alt="about image" />
+              </div>
             </div>
-        </section>
-        
+            <div class="about-text">
+              <p>
+                I'm an engineering graduate specializing in Computer Science &
+                Engineering, from GLA University, Mathura with an overall CPI of
+                8.7 till 5th Sem. Along with my degree, I completed various
+                courses based on the concepts of Object-Oriented Programming &
+                Functional Programming in Java. Also, I have got the knowledge
+                of Cross-Platform Application Development frameworks like
+                Flutter & React-Native with hands-on experience on projects.
+                Moreover, I have learned the basics and advanced topics of
+                FullStack Frontend & Backend Development using the languages
+                like HTML, CSS, Bootstrap & JavaScript.
+              </p>
+              <h3>skills</h3>
+              <div class="skills">
+                <div class="skill-item">java</div>
+                <div class="skill-item">python</div>
+                <div class="skill-item">flutter</div>
+                <div class="skill-item">dart</div>
+                <div class="skill-item">reactJs</div>
+                <div class="skill-item">react-native</div>
+                <div class="skill-item">html</div>
+                <div class="skill-item">css</div>
+                <div class="skill-item">javascript</div>
+                <div class="skill-item">bootstrap</div>
+              </div>
 
-        <!-- Contact Section End -->
+              <div class="about-tabs">
+                <button
+                  type="button"
+                  class="tab-item active"
+                  data-target="#education"
+                >
+                  education
+                </button>
+                <button
+                  type="button"
+                  class="tab-item"
+                  data-target="#experience"
+                >
+                  experience
+                </button>
+              </div>
 
+              <!-- Education Start -->
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2019-2023</span>
+                    <h4>
+                      bachelor of technology - <span>GLA university</span>
+                    </h4>
+                    <p>
+                      Pre-Final year student in Computer Science & Engineering
+                      with an overall CPI of 8.7.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2017-2018</span>
+                    <h4>
+                      Senior Secondary - <span>st joseph's convent school</span>
+                    </h4>
+                    <p>
+                      Completed my 12th from ISC board with an overall
+                      percentage of 79.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2015-2016</span>
+                    <h4>Seconday - <span>st joseph's convent school</span></h4>
+                    <p>
+                      Completed my 10th from ICSE board with an overall
+                      percentage of 70.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Education End -->
+
+              <!-- Experience Start -->
+
+              <div class="tab-content" id="experience">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">Apr21 - Aug21</span>
+                    <h4>
+                      flutter developer intern - <span>era interfaces</span>
+                    </h4>
+                    <p>
+                      Developed a Cross-Platform crypto application using Dart
+                      language and Flutter framework.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">Jun21 - Aug21</span>
+                    <h4>
+                      android developer intern -
+                      <span>netcamp solutions pvt. ltd.</span>
+                    </h4>
+                    <p>
+                      Developed an All In One Android application using the
+                      concepts of core Java.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">Jul21 - Aug21</span>
+                    <h4>
+                      React-Native developer intern -
+                      <span>era interfaces</span>
+                    </h4>
+                    <p>
+                      Wrapped the home page of Tesla's official website inside a
+                      Cross-Platform application using React-Native.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Experience End -->
+
+              <a href="RESUME.pdf" target="_blank" class="btn">download cv</a>
+              <a href="#contact" class="btn link-item">contact me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+
+      <!-- Portfolio Section Start -->
+      <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>recent work</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="images/portfolio/candidate.png"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">candidate management system</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Developed a console based Java application that would allow
+                    the Admin of a Training Institute to add and view Candidate
+                    Information details as per the design specification of the
+                    project. The (core) Concept of Java Database Connectivity
+                    (JDBC) in Java Programming Language is used in this Project.
+                    Used XAMPP control panel to configure the servers of MySQL
+                    and Apache Web Server in order to access the database using
+                    localhost/phpmyadmin.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>April 2021</span></li>
+                    <li>technologies used - <span>Java, JDBC, SQL</span></li>
+                    <li>Role - <span>Software Developer</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/D-Coder135/WiproProject"
+                          target="_blank"
+                          >www.github.com/D-Coder135/WiproProject</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="images/portfolio/crypto.png"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">crypto crux application</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    The objective of this project was to build an application
+                    that fetches the live rates of various Crypto-Currencies (in
+                    USD and INR both) using an API Call. The application also
+                    has a subscribe and unsubscribe functionality by which a
+                    user can add/remove crypto-currencies in which he/she is
+                    intrested, from the Homepage of the app. The application
+                    uses the online Google's Firebase Authentication and
+                    Firestore Database for authenticating its users and storing
+                    the data for each user separately. Hence providing a
+                    beautiful user interface depending on the platform i.e.
+                    Android or iOS.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>June 2021</span></li>
+                    <li>
+                      technologies used -
+                      <span>Flutter, Dart, Android Studio</span>
+                    </li>
+                    <li>Role - <span>Cross Platform Developer</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/D-Coder135/crypto_application_project"
+                          target="_blank"
+                          >www.github.com/D-Coder135/crypto_application_project</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="images/portfolio/all.png"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">all in one application</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    The objective of this project was to build an application
+                    containing all the basic and intermediate features of an
+                    android device. The application contains all the types of
+                    login/signup features including the OTP & Login with Gmail.
+                    The application uses the online Google's Firebase
+                    Authentication and Firebase Realtime Database for
+                    authenticating its users and storing the data for each user
+                    respectively. As the name of the app suggests, a user can
+                    perform a bunch of tasks just by using a single application.
+                    The tasks list includes Sensor Actions📳, Media Actions🎵,
+                    Calculator Actions➕✖, Camera Actions📸🎥 and much more.
+                    Hence providing a beautiful user interface depending on the
+                    platform i.e. Android.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>July 2021</span></li>
+                    <li>
+                      technologies used -
+                      <span>Android, Core Java, Android Studio</span>
+                    </li>
+                    <li>Role - <span>Android Developer</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/D-Coder135/All_In_One"
+                          target="_blank"
+                          >www.github.com/D-Coder135/All_In_One</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="images/portfolio/tesla.png"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">tesla clone</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    The objective of this project was to clone the Tesla's
+                    official website Homepage as a hybrid application using
+                    JavaScript & React-Native. The application renders a list of
+                    Tesla cars along with a beautiful animation while scrolling.
+                    The images are fetched using an API Call. The application is
+                    compatible on various platforms like Android, iOS, and Web.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>August 2021</span></li>
+                    <li>
+                      technologies used -
+                      <span>React-Native, JavaScript, NodeJs, ExpoCLI</span>
+                    </li>
+                    <li>Role - <span>React-Native Developer</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/D-Coder135/TeslaClone_React-Native"
+                          target="_blank"
+                          >www.github.com/D-Coder135/TeslaClone_React-Native</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="images/portfolio/music.png"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">music streaming website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Created a music streaming website known as Rhythm And Beats.
+                    Created the frontend part of the website using the basic and
+                    advanced concepts of HTML, CSS, Bootstrap & JavaScript.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>November 2021</span></li>
+                    <li>
+                      technologies used - <span>HTML, CSS, JavaScript</span>
+                    </li>
+                    <li>Role - <span>Frontend Developer</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/D-Coder135/Rhythm_And_Beats-Music-Streaming-Website-"
+                          target="_blank"
+                          >www.github.com/D-Coder135/Rhythm_And_Beats-Music-Streaming-Website-</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="images/portfolio/portfolio.jpg"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">portfolio website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Created my portfolio website from scratch using the basic
+                    and advance concepts of FullStack. The frontend part of the
+                    website was mainly created using the concepts of languages
+                    like HTML, CSS & Bootstrap. The backend part of the website
+                    was created by using the basic and core concepts of the
+                    JavaScript language.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>Jan 2022</span></li>
+                    <li>
+                      technologies used - <span>HTML, CSS, JavaScript</span>
+                    </li>
+                    <li>Role - <span>Frontend & Backend Developer</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/D-Coder135/Portfoilio_Project"
+                          target="_blank"
+                          >www.github.com/D-Coder135/Portfoilio_Project</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio Section End -->
+
+      <!-- Contact Section Start -->
+
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>contact me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+              <form onsubmit="sendEmail(); reset(); return false;">
+                <div class="row">
+                  <div class="input-group">
+                    <input
+                      type="name"
+                      placeholder="Name"
+                      class="input-control"
+                      id="name"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="email"
+                      placeholder="Email"
+                      class="input-control"
+                      id="email"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Subject"
+                      class="input-control"
+                      id="subject"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <textarea
+                      id="message"
+                      placeholder="Message"
+                      class="input-control"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="submit-btn">
+                    <button type="submit" class="btn">send message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <p>devansh1352000@gmail.com</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Phone</h3>
+                <p>8542875214</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                  <a
+                    href="https://www.linkedin.com/in/devansh-k-shukla-63392a209/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="https://github.com/D-Coder135" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/DOptimist135/"
+                    target="_blank"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="https://twitter.com/D_Optimist135" target="_blank"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/de_coder135/"
+                    target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section End -->
     </div>
     <!-- Main End -->
 
     <!-- Portfolio Item Details Popup Start -->
     <div class="portfolio-popup">
-        <div class="pp-inner">
-            <div class="pp-content">
-                <div class="pp-header">
-                    <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
-                    <div class="pp-thumbnail">
-                        <img src="images/portfolio/crypto.png" alt="pp-thumbnail">
-                    </div>
-                    <h3></h3>
-                </div>
-                <div class="pp-body">
-                </div>
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img src="images/portfolio/crypto.png" alt="pp-thumbnail" />
             </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body"></div>
         </div>
+      </div>
     </div>
     <!-- Portfolio Item Details Popup End -->
 
     <script src="js/script.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-</body>
+
+    <script>
+      function sendEmail() {
+        Email.send({
+          Host: "smtp.gmail.com",
+          Username: "devansh1352000@gmail.com",
+          Password: "fowhlzqrgfhtomgv",
+          To: "devansh1352000@gmail.com",
+          From: document.getElementById("email").value,
+          Subject: document.getElementById("subject").value,
+          Body: "Name: " + document.getElementById("name").value
+              + "<br> Message: " + document.getElementById("message").value  
+        }).then((message) => alert("Message Sent Successfully!!"));
+      }
+    </script>
+  </body>
 </html>
